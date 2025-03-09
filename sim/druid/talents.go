@@ -4,8 +4,8 @@ import (
 	"math"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/stats"
 )
 
 func (druid *Druid) ThickHideMultiplier() float64 {

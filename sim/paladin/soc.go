@@ -1,8 +1,8 @@
 package paladin
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 func (paladin *Paladin) registerSealOfCommandSpellAndAura() {

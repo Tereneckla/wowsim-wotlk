@@ -2,7 +2,7 @@
 
 FROM golang:1.21
 
-WORKDIR /wotlk
+WORKDIR /wowsim-wotlk
 COPY . .
 COPY gitconfig /etc/gitconfig
 

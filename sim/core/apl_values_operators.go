@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 type APLValueConst struct {

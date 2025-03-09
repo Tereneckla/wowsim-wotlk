@@ -1,9 +1,9 @@
 package retribution
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/paladin"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/paladin"
 )
 
 func RegisterRetributionPaladin() {

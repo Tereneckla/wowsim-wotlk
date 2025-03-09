@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
 )
 
 func (priest *Priest) registerPrayerOfMendingSpell() {

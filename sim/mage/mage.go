@@ -1,11 +1,11 @@
 package mage
 
 import (
-	"github.com/wowsims/wotlk/sim/common/wotlk"
+	"github.com/Tereneckla/wowsim-wotlk/sim/common/wotlk"
 
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/stats"
 )
 
 const (

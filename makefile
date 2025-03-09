@@ -1,4 +1,4 @@
-OUT_DIR := dist/wotlk
+OUT_DIR := dist/wowsim-wotlk
 TS_CORE_SRC := $(shell find ui/core -name '*.ts' -type f)
 ASSETS_INPUT := $(shell find assets/ -type f)
 ASSETS := $(patsubst assets/%,$(OUT_DIR)/assets/%,$(ASSETS_INPUT))
@@ -126,18 +126,18 @@ $(OUT_DIR)/assets/%: assets/%
 	cp $< $@
 
 binary_dist/dist.go: sim/web/dist.go.tmpl
-	mkdir -p binary_dist/wotlk
-	touch binary_dist/wotlk/embedded
+	mkdir -p binary_dist/wowsim-wotlk
+	touch binary_dist/wowsim-wotlk/embedded
 	cp sim/web/dist.go.tmpl binary_dist/dist.go
 
 binary_dist: $(OUT_DIR)/.dirstamp
 	rm -rf binary_dist
 	mkdir -p binary_dist
 	cp -r $(OUT_DIR) binary_dist/
-	rm binary_dist/wotlk/lib.wasm
-	rm -rf binary_dist/wotlk/assets/db_inputs
-	rm binary_dist/wotlk/assets/database/db.bin
-	rm binary_dist/wotlk/assets/database/leftover_db.bin
+	rm binary_dist/wowsim-wotlk/lib.wasm
+	rm -rf binary_dist/wowsim-wotlk/assets/db_inputs
+	rm binary_dist/wowsim-wotlk/assets/database/db.bin
+	rm binary_dist/wowsim-wotlk/assets/database/leftover_db.bin
 
 # Rebuild the protobuf generated code.
 .PHONY: proto
@@ -251,7 +251,7 @@ host: air $(OUT_DIR)/.dirstamp node_modules
 ifeq ($(WATCH), 1)
 	ulimit -n 10240 && air -tmp_dir "/tmp" -build.include_ext "go,ts,js,html" -build.bin "npx" -build.args_bin "http-server $(OUT_DIR)/.." -build.cmd "make" -build.exclude_dir "dist,node_modules,tools"
 else
-	# Intentionally serve one level up, so the local site has 'wotlk' as the first
+	# Intentionally serve one level up, so the local site has 'wowsim-wotlk' as the first
 	# directory just like github pages.
 	npx http-server $(OUT_DIR)/..
 endif

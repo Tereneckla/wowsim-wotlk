@@ -1,9 +1,9 @@
 package tank
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/druid"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/druid"
 )
 
 func RegisterFeralTankDruid() {

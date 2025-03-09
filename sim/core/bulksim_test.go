@@ -4,8 +4,8 @@ import (
 	"context"
 	"testing"
 
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 	"github.com/google/go-cmp/cmp"
-	"github.com/wowsims/wotlk/sim/core/proto"
 	"google.golang.org/protobuf/encoding/protojson"
 )
 

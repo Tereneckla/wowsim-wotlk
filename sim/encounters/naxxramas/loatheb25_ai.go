@@ -1,9 +1,9 @@
 package naxxramas
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/core/stats"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/stats"
 )
 
 func addLoatheb25(bossPrefix string) {

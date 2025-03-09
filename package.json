@@ -1,5 +1,5 @@
 {
-    "name": "wotlk",
+    "name": "wowsim-wotlk",
     "version": "0.1.0",
     "private": true,
     "engines": {

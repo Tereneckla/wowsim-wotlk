@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 type APLActionSequence struct {

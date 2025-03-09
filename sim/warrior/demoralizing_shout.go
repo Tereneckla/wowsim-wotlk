@@ -1,7 +1,7 @@
 package warrior
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
 )
 
 func (warrior *Warrior) registerDemoralizingShoutSpell() {

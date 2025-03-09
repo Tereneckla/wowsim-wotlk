@@ -5,7 +5,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 func DurationFromSeconds(numSeconds float64) time.Duration {

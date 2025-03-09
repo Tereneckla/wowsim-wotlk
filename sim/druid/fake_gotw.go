@@ -1,8 +1,8 @@
 package druid
 
 import (
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 // This is 'fake' because it doesnt actually account for any actual buff updating

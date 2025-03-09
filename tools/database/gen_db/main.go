@@ -10,12 +10,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/wowsims/wotlk/sim"
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	_ "github.com/wowsims/wotlk/sim/encounters" // Needed for preset encounters.
-	"github.com/wowsims/wotlk/tools"
-	"github.com/wowsims/wotlk/tools/database"
+	"github.com/Tereneckla/wowsim-wotlk/sim"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	_ "github.com/Tereneckla/wowsim-wotlk/sim/encounters" // Needed for preset encounters.
+	"github.com/Tereneckla/wowsim-wotlk/tools"
+	"github.com/Tereneckla/wowsim-wotlk/tools/database"
 )
 
 // To do a full re-scrape, delete the previous output file first.

@@ -302,7 +302,7 @@ export abstract class SimUI extends Component {
 			const link = this.toLink();
 			const rngSeed = this.sim.getLastUsedRngSeed();
 			fetch(
-				'https://api.github.com/search/issues?q=is:issue+is:open+repo:wowsims/wotlk+' +
+				'https://api.github.com/search/issues?q=is:issue+is:open+repo:tereneckla/wowsim-wotlk+' +
 					hash,
 			)
 				.then(resp => {
@@ -311,7 +311,7 @@ export abstract class SimUI extends Component {
 							window.open(issues.items[0].html_url, '_blank');
 						} else {
 							const base_url =
-								'https://github.com/wowsims/wotlk/issues/new?assignees=&labels=&title=Crash%20Report%20';
+								'https://github.com/Tereneckla/wowsim-wotlk/issues/new?assignees=&labels=&title=Crash%20Report%20';
 							const base = `${base_url}${hash}&body=`;
 							const maxBodyLength = URLMAXLEN - base.length;
 							let issueBody = encodeURIComponent(

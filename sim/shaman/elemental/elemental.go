@@ -1,10 +1,10 @@
 package elemental
 
 import (
-	"github.com/wowsims/wotlk/sim/common/wotlk"
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
-	"github.com/wowsims/wotlk/sim/shaman"
+	"github.com/Tereneckla/wowsim-wotlk/sim/common/wotlk"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
+	"github.com/Tereneckla/wowsim-wotlk/sim/shaman"
 )
 
 func RegisterElementalShaman() {

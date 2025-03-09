@@ -3,9 +3,9 @@ package smite
 import (
 	"testing"
 
-	_ "github.com/wowsims/wotlk/sim/common" // imported to get caster sets included.
-	"github.com/wowsims/wotlk/sim/core"
-	"github.com/wowsims/wotlk/sim/core/proto"
+	_ "github.com/Tereneckla/wowsim-wotlk/sim/common" // imported to get caster sets included.
+	"github.com/Tereneckla/wowsim-wotlk/sim/core"
+	"github.com/Tereneckla/wowsim-wotlk/sim/core/proto"
 )
 
 func init() {
