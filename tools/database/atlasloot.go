@@ -219,8 +219,6 @@ var AtlasLootProfessionIDs = map[int]proto.Profession{
 var AtlasLootDifficulties = map[string]proto.DungeonDifficulty{
 	"NORMAL_DIFF":  proto.DungeonDifficulty_DifficultyNormal,
 	"HEROIC_DIFF":  proto.DungeonDifficulty_DifficultyHeroic,
-	"ALPHA_DIFF":   proto.DungeonDifficulty_DifficultyTitanRuneAlpha,
-	"BETA_DIFF":    proto.DungeonDifficulty_DifficultyTitanRuneBeta,
 	"RAID10_DIFF":  proto.DungeonDifficulty_DifficultyRaid10,
 	"RAID10H_DIFF": proto.DungeonDifficulty_DifficultyRaid10H,
 	"RAID25_DIFF":  proto.DungeonDifficulty_DifficultyRaid25,

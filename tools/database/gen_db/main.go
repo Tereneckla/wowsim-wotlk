@@ -94,6 +94,18 @@ func main() {
 	}
 	for _, item := range atlaslootDB.Items {
 		if _, ok := db.Items[item.Id]; ok {
+			//if (item.GetSources()[0].GetDrop().Difficulty > 7)
+			for i := 0; i < len(item.GetSources()); i++ {
+				drop := item.Sources[i].GetDrop()
+				if drop != nil {
+					if drop.Difficulty >= 7 {
+						copy(item.Sources[i:], item.Sources[i+1:])
+						item.Sources[len(item.Sources)-1] = nil
+						item.Sources = item.Sources[:len(item.Sources)-1]
+						i--
+					}
+				}
+			}
 			db.MergeItem(item)
 		}
 	}
