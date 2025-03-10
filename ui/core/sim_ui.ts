@@ -173,9 +173,7 @@ export abstract class SimUI extends Component {
 		this.resultsViewer = new ResultsViewer(resultsViewerElem);
 
 		const socialsContainer = this.rootElem.querySelector('.sim-sidebar-socials') as HTMLElement;
-		socialsContainer.appendChild(SocialLinks.buildDiscordLink());
 		socialsContainer.appendChild(SocialLinks.buildGitHubLink());
-		socialsContainer.appendChild(SocialLinks.buildPatreonLink());
 
 		this.simTabContentsContainer = this.rootElem.querySelector(
 			'.sim-main.tab-content',
